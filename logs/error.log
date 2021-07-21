@@ -1,0 +1,904 @@
+2021-07-21 13:27:14 Error: [Cake\Http\Exception\MissingControllerException] Controller class Qsdq could not be found. in /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 226
+Exception Attributes: array (
+  'class' => 'Qsdq',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:65
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/BaseApplication.php:311
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/toine/Desktop/WEBSITES/test_website_cake/webroot/index.php:40
+- /home/toine/Desktop/WEBSITES/test_website_cake/index.php:16
+
+Request URL: /qsdq
+
+
+2021-07-21 13:29:04 Error: [Cake\Http\Exception\MissingControllerException] Controller class Testeurs could not be found. in /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 226
+Exception Attributes: array (
+  'class' => 'Testeurs',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:65
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/BaseApplication.php:311
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/toine/Desktop/WEBSITES/test_website_cake/webroot/index.php:40
+- /home/toine/Desktop/WEBSITES/test_website_cake/index.php:16
+
+Request URL: /Testeurs
+
+
+2021-07-21 13:35:48 Error: [Error] Class 'App\Controller\PhpConfig' not found in /home/toine/Desktop/WEBSITES/test_website_cake/src/Controller/TesteursController.php on line 13
+Stack Trace:
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Controller/Controller.php:531
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:149
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/BaseApplication.php:313
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/toine/Desktop/WEBSITES/test_website_cake/webroot/index.php:40
+- /home/toine/Desktop/WEBSITES/test_website_cake/index.php:16
+
+Request URL: /Testeurs
+
+
+2021-07-21 13:40:36 Error: [Error] Class name must be a valid object or a string in /home/toine/Desktop/WEBSITES/test_website_cake/templates/Testeurs/index.php on line 6
+Stack Trace:
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/View/View.php:1176
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/View/View.php:1134
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/View/View.php:764
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Controller/Controller.php:699
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Controller/Controller.php:540
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:149
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/BaseApplication.php:313
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/toine/Desktop/WEBSITES/test_website_cake/webroot/index.php:40
+- /home/toine/Desktop/WEBSITES/test_website_cake/index.php:16
+
+Request URL: /Testeurs
+
+
+2021-07-21 13:40:49 Error: [Error] Call to undefined function read() in /home/toine/Desktop/WEBSITES/test_website_cake/templates/Testeurs/index.php on line 6
+Stack Trace:
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/View/View.php:1176
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/View/View.php:1134
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/View/View.php:764
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Controller/Controller.php:699
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Controller/Controller.php:540
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:149
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/BaseApplication.php:313
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/toine/Desktop/WEBSITES/test_website_cake/webroot/index.php:40
+- /home/toine/Desktop/WEBSITES/test_website_cake/index.php:16
+
+Request URL: /Testeurs
+
+
+2021-07-21 13:41:10 Error: [Error] Class 'Configure' not found in /home/toine/Desktop/WEBSITES/test_website_cake/templates/Testeurs/index.php on line 6
+Stack Trace:
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/View/View.php:1176
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/View/View.php:1134
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/View/View.php:764
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Controller/Controller.php:699
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Controller/Controller.php:540
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:149
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/BaseApplication.php:313
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/toine/Desktop/WEBSITES/test_website_cake/webroot/index.php:40
+- /home/toine/Desktop/WEBSITES/test_website_cake/index.php:16
+
+Request URL: /Testeurs
+
+
+2021-07-21 13:41:38 Error: [Error] Call to a member function read() on null in /home/toine/Desktop/WEBSITES/test_website_cake/templates/Testeurs/index.php on line 6
+Stack Trace:
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/View/View.php:1176
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/View/View.php:1134
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/View/View.php:764
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Controller/Controller.php:699
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Controller/Controller.php:540
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:149
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/BaseApplication.php:313
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/toine/Desktop/WEBSITES/test_website_cake/webroot/index.php:40
+- /home/toine/Desktop/WEBSITES/test_website_cake/index.php:16
+
+Request URL: /Testeurs
+
+
+2021-07-21 13:47:28 Error: [Error] Class 'Configure' not found in /home/toine/Desktop/WEBSITES/test_website_cake/templates/Testeurs/index.php on line 6
+Stack Trace:
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/View/View.php:1176
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/View/View.php:1134
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/View/View.php:764
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Controller/Controller.php:699
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Controller/Controller.php:540
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:149
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/BaseApplication.php:313
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/toine/Desktop/WEBSITES/test_website_cake/webroot/index.php:40
+- /home/toine/Desktop/WEBSITES/test_website_cake/index.php:16
+
+Request URL: /Testeurs
+
+
+2021-07-21 13:52:41 Error: [Cake\View\Exception\MissingHelperException] Helper class configHelper could not be found. in /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/View/HelperRegistry.php on line 132
+Exception Attributes: array (
+  'class' => 'configHelper',
+  'plugin' => NULL,
+)
+Stack Trace:
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php:102
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/View/HelperRegistry.php:70
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/View/View.php:1089
+- /home/toine/Desktop/WEBSITES/test_website_cake/templates/Testeurs/index.php:6
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/View/View.php:1176
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/View/View.php:1134
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/View/View.php:764
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Controller/Controller.php:699
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Controller/Controller.php:540
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:149
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/BaseApplication.php:313
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/toine/Desktop/WEBSITES/test_website_cake/webroot/index.php:40
+- /home/toine/Desktop/WEBSITES/test_website_cake/index.php:16
+
+Request URL: /Testeurs/index
+
+
+2021-07-21 13:53:11 Error: [Cake\View\Exception\MissingHelperException] Helper class configHelper could not be found. in /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/View/HelperRegistry.php on line 132
+Exception Attributes: array (
+  'class' => 'configHelper',
+  'plugin' => NULL,
+)
+Stack Trace:
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php:102
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/View/HelperRegistry.php:70
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/View/View.php:1089
+- /home/toine/Desktop/WEBSITES/test_website_cake/templates/Testeurs/index.php:6
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/View/View.php:1176
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/View/View.php:1134
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/View/View.php:764
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Controller/Controller.php:699
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Controller/Controller.php:540
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:149
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/BaseApplication.php:313
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/toine/Desktop/WEBSITES/test_website_cake/webroot/index.php:40
+- /home/toine/Desktop/WEBSITES/test_website_cake/index.php:16
+
+Request URL: /Testeurs/index
+
+
+2021-07-21 13:53:38 Error: [Cake\View\Exception\MissingHelperException] Helper class configHelper could not be found. in /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/View/HelperRegistry.php on line 132
+Exception Attributes: array (
+  'class' => 'configHelper',
+  'plugin' => NULL,
+)
+Stack Trace:
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php:102
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/View/HelperRegistry.php:70
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/View/View.php:1089
+- /home/toine/Desktop/WEBSITES/test_website_cake/templates/Testeurs/index.php:6
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/View/View.php:1176
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/View/View.php:1134
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/View/View.php:764
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Controller/Controller.php:699
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Controller/Controller.php:540
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:149
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/BaseApplication.php:313
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/toine/Desktop/WEBSITES/test_website_cake/webroot/index.php:40
+- /home/toine/Desktop/WEBSITES/test_website_cake/index.php:16
+
+Request URL: /Testeurs/index
+
+
+2021-07-21 13:53:38 Warning: Warning (512): Unable to emit headers. Headers sent in file=/home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Error/Debugger.php line=970 in [/home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 71]
+Request URL: /Testeurs/index
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 71
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 128
+require - ROOT/webroot/index.php, line 40
+[main] - ROOT/index.php, line 16
+
+2021-07-21 13:53:39 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Error/Debugger.php:970) in [/home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 168]
+Request URL: /Testeurs/index
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE/src/Http/ResponseEmitter.php, line 168
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 74
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 128
+require - ROOT/webroot/index.php, line 40
+[main] - ROOT/index.php, line 16
+
+2021-07-21 13:53:39 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Error/Debugger.php:970) in [/home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 197]
+Request URL: /Testeurs/index
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 128
+require - ROOT/webroot/index.php, line 40
+[main] - ROOT/index.php, line 16
+
+2021-07-21 13:53:39 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Error/Debugger.php:970) in [/home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 197]
+Request URL: /Testeurs/index
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 128
+require - ROOT/webroot/index.php, line 40
+[main] - ROOT/index.php, line 16
+
+2021-07-21 14:04:18 Error: [ParseError] syntax error, unexpected ')', expecting '=' in /home/toine/Desktop/WEBSITES/test_website_cake/templates/Testeurs/index.php on line 10
+Stack Trace:
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/View/View.php:1134
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/View/View.php:764
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Controller/Controller.php:699
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Controller/Controller.php:540
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:149
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/BaseApplication.php:313
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/toine/Desktop/WEBSITES/test_website_cake/webroot/index.php:40
+- /home/toine/Desktop/WEBSITES/test_website_cake/index.php:16
+
+Request URL: /Testeurs/index
+
+
+2021-07-21 14:10:12 Error: [ParseError] syntax error, unexpected 'echo' (T_ECHO) in /home/toine/Desktop/WEBSITES/test_website_cake/templates/Testeurs/index.php on line 8
+Stack Trace:
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/View/View.php:1134
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/View/View.php:764
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Controller/Controller.php:699
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Controller/Controller.php:540
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:149
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/BaseApplication.php:313
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/toine/Desktop/WEBSITES/test_website_cake/webroot/index.php:40
+- /home/toine/Desktop/WEBSITES/test_website_cake/index.php:16
+
+Request URL: /Testeurs/index
+
+
+2021-07-21 14:10:20 Error: [ParseError] syntax error, unexpected 'echo' (T_ECHO) in /home/toine/Desktop/WEBSITES/test_website_cake/templates/Testeurs/index.php on line 8
+Stack Trace:
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/View/View.php:1134
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/View/View.php:764
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Controller/Controller.php:699
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Controller/Controller.php:540
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:149
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/BaseApplication.php:313
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/toine/Desktop/WEBSITES/test_website_cake/webroot/index.php:40
+- /home/toine/Desktop/WEBSITES/test_website_cake/index.php:16
+
+Request URL: /Testeurs/index
+
+
+2021-07-21 14:10:57 Error: [ParseError] syntax error, unexpected 'echo' (T_ECHO), expecting ';' or ',' in /home/toine/Desktop/WEBSITES/test_website_cake/templates/Testeurs/index.php on line 8
+Stack Trace:
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/View/View.php:1134
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/View/View.php:764
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Controller/Controller.php:699
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Controller/Controller.php:540
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:149
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/BaseApplication.php:313
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/toine/Desktop/WEBSITES/test_website_cake/webroot/index.php:40
+- /home/toine/Desktop/WEBSITES/test_website_cake/index.php:16
+
+Request URL: /Testeurs/index
+
+
+2021-07-21 14:11:11 Error: [TypeError] Argument 1 passed to Cake\View\Helper\HtmlHelper::tableHeaders() must be of the type array, string given, called in /home/toine/Desktop/WEBSITES/test_website_cake/templates/Testeurs/index.php on line 7 in /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php on line 688
+Stack Trace:
+- /home/toine/Desktop/WEBSITES/test_website_cake/templates/Testeurs/index.php:7
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/View/View.php:1176
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/View/View.php:1134
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/View/View.php:764
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Controller/Controller.php:699
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Controller/Controller.php:540
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:149
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/BaseApplication.php:313
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/toine/Desktop/WEBSITES/test_website_cake/webroot/index.php:40
+- /home/toine/Desktop/WEBSITES/test_website_cake/index.php:16
+
+Request URL: /Testeurs/index
+
+
+2021-07-21 14:11:17 Error: [TypeError] Argument 1 passed to Cake\View\Helper\HtmlHelper::tableHeaders() must be of the type array, string given, called in /home/toine/Desktop/WEBSITES/test_website_cake/templates/Testeurs/index.php on line 7 in /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php on line 688
+Stack Trace:
+- /home/toine/Desktop/WEBSITES/test_website_cake/templates/Testeurs/index.php:7
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/View/View.php:1176
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/View/View.php:1134
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/View/View.php:764
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Controller/Controller.php:699
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Controller/Controller.php:540
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:149
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/BaseApplication.php:313
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/toine/Desktop/WEBSITES/test_website_cake/webroot/index.php:40
+- /home/toine/Desktop/WEBSITES/test_website_cake/index.php:16
+
+Request URL: /Testeurs/index
+
+
+2021-07-21 14:11:24 Error: [TypeError] Argument 1 passed to Cake\View\Helper\HtmlHelper::tableHeaders() must be of the type array, string given, called in /home/toine/Desktop/WEBSITES/test_website_cake/templates/Testeurs/index.php on line 7 in /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php on line 688
+Stack Trace:
+- /home/toine/Desktop/WEBSITES/test_website_cake/templates/Testeurs/index.php:7
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/View/View.php:1176
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/View/View.php:1134
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/View/View.php:764
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Controller/Controller.php:699
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Controller/Controller.php:540
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:149
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/BaseApplication.php:313
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/toine/Desktop/WEBSITES/test_website_cake/webroot/index.php:40
+- /home/toine/Desktop/WEBSITES/test_website_cake/index.php:16
+
+Request URL: /Testeurs/index
+
+
+2021-07-21 14:11:50 Error: [TypeError] Argument 1 passed to Cake\View\Helper\HtmlHelper::tableHeaders() must be of the type array, string given, called in /home/toine/Desktop/WEBSITES/test_website_cake/templates/Testeurs/index.php on line 7 in /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php on line 688
+Stack Trace:
+- /home/toine/Desktop/WEBSITES/test_website_cake/templates/Testeurs/index.php:7
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/View/View.php:1176
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/View/View.php:1134
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/View/View.php:764
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Controller/Controller.php:699
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Controller/Controller.php:540
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:149
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/BaseApplication.php:313
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/toine/Desktop/WEBSITES/test_website_cake/webroot/index.php:40
+- /home/toine/Desktop/WEBSITES/test_website_cake/index.php:16
+
+Request URL: /Testeurs/index
+
+
+2021-07-21 14:16:56 Error: [Cake\View\Exception\MissingHelperException] Helper class formHelper could not be found. in /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/View/HelperRegistry.php on line 132
+Exception Attributes: array (
+  'class' => 'formHelper',
+  'plugin' => NULL,
+)
+Stack Trace:
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php:102
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/View/HelperRegistry.php:70
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/View/View.php:1089
+- /home/toine/Desktop/WEBSITES/test_website_cake/templates/Testeurs/index.php:6
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/View/View.php:1176
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/View/View.php:1134
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/View/View.php:764
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Controller/Controller.php:699
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Controller/Controller.php:540
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:149
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/BaseApplication.php:313
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/toine/Desktop/WEBSITES/test_website_cake/webroot/index.php:40
+- /home/toine/Desktop/WEBSITES/test_website_cake/index.php:16
+
+Request URL: /Testeurs/index
+
+
+2021-07-21 14:17:26 Error: [Cake\View\Exception\MissingHelperException] Helper class formHelper could not be found. in /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/View/HelperRegistry.php on line 132
+Exception Attributes: array (
+  'class' => 'formHelper',
+  'plugin' => NULL,
+)
+Stack Trace:
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php:102
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/View/HelperRegistry.php:70
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/View/View.php:1089
+- /home/toine/Desktop/WEBSITES/test_website_cake/templates/Testeurs/index.php:6
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/View/View.php:1176
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/View/View.php:1134
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/View/View.php:764
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Controller/Controller.php:699
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Controller/Controller.php:540
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:149
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/BaseApplication.php:313
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/toine/Desktop/WEBSITES/test_website_cake/webroot/index.php:40
+- /home/toine/Desktop/WEBSITES/test_website_cake/index.php:16
+
+Request URL: /Testeurs/index
+
+
+2021-07-21 14:19:11 Error: [Cake\View\Exception\MissingHelperException] Helper class formHelper could not be found. in /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/View/HelperRegistry.php on line 132
+Exception Attributes: array (
+  'class' => 'formHelper',
+  'plugin' => NULL,
+)
+Stack Trace:
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php:102
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/View/HelperRegistry.php:70
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/View/View.php:1089
+- /home/toine/Desktop/WEBSITES/test_website_cake/templates/Testeurs/index.php:6
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/View/View.php:1176
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/View/View.php:1134
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/View/View.php:764
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Controller/Controller.php:699
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Controller/Controller.php:540
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:149
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/BaseApplication.php:313
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/toine/Desktop/WEBSITES/test_website_cake/webroot/index.php:40
+- /home/toine/Desktop/WEBSITES/test_website_cake/index.php:16
+
+Request URL: /Testeurs/index
+
+
+2021-07-21 14:19:25 Error: [Cake\View\Exception\MissingHelperException] Helper class formHelper could not be found. in /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/View/HelperRegistry.php on line 132
+Exception Attributes: array (
+  'class' => 'formHelper',
+  'plugin' => NULL,
+)
+Stack Trace:
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php:102
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/View/HelperRegistry.php:70
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/View/View.php:1089
+- /home/toine/Desktop/WEBSITES/test_website_cake/templates/Testeurs/index.php:6
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/View/View.php:1176
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/View/View.php:1134
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/View/View.php:764
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Controller/Controller.php:699
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Controller/Controller.php:540
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:149
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/BaseApplication.php:313
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/toine/Desktop/WEBSITES/test_website_cake/webroot/index.php:40
+- /home/toine/Desktop/WEBSITES/test_website_cake/index.php:16
+
+Request URL: /Testeurs/index
+
+
+2021-07-21 14:19:33 Error: [Cake\View\Exception\MissingHelperException] Helper class formHelper could not be found. in /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/View/HelperRegistry.php on line 132
+Exception Attributes: array (
+  'class' => 'formHelper',
+  'plugin' => NULL,
+)
+Stack Trace:
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php:102
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/View/HelperRegistry.php:70
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/View/View.php:1089
+- /home/toine/Desktop/WEBSITES/test_website_cake/templates/Testeurs/index.php:6
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/View/View.php:1176
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/View/View.php:1134
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/View/View.php:764
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Controller/Controller.php:699
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Controller/Controller.php:540
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:149
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/BaseApplication.php:313
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/toine/Desktop/WEBSITES/test_website_cake/webroot/index.php:40
+- /home/toine/Desktop/WEBSITES/test_website_cake/index.php:16
+
+Request URL: /Testeurs/index
+
+
+2021-07-21 14:35:33 Error: [Cake\View\Exception\MissingHelperException] Helper class formHelper could not be found. in /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/View/HelperRegistry.php on line 132
+Exception Attributes: array (
+  'class' => 'formHelper',
+  'plugin' => NULL,
+)
+Stack Trace:
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php:102
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/View/HelperRegistry.php:70
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/View/View.php:1089
+- /home/toine/Desktop/WEBSITES/test_website_cake/templates/Testeurs/index.php:6
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/View/View.php:1176
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/View/View.php:1134
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/View/View.php:764
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Controller/Controller.php:699
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Controller/Controller.php:540
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:149
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/BaseApplication.php:313
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/toine/Desktop/WEBSITES/test_website_cake/webroot/index.php:40
+- /home/toine/Desktop/WEBSITES/test_website_cake/index.php:16
+
+Request URL: /Testeurs/index
+
+
+2021-07-21 14:35:43 Error: [Cake\View\Exception\MissingHelperException] Helper class formHelper could not be found. in /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/View/HelperRegistry.php on line 132
+Exception Attributes: array (
+  'class' => 'formHelper',
+  'plugin' => NULL,
+)
+Stack Trace:
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php:102
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/View/HelperRegistry.php:70
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/View/View.php:1089
+- /home/toine/Desktop/WEBSITES/test_website_cake/templates/Testeurs/index.php:7
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/View/View.php:1176
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/View/View.php:1134
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/View/View.php:764
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Controller/Controller.php:699
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Controller/Controller.php:540
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:149
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/BaseApplication.php:313
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /home/toine/Desktop/WEBSITES/test_website_cake/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/toine/Desktop/WEBSITES/test_website_cake/webroot/index.php:40
+- /home/toine/Desktop/WEBSITES/test_website_cake/index.php:16
+
+Request URL: /Testeurs/index
+
+
